@@ -2,7 +2,7 @@ FROM d3v0x/gentoo
 
 RUN emerge-webrsync -v
 
-RUN emerge =dev-db/mongodb-2.6.8
+RUN emerge dev-db/mongodb
 RUN rm -rf /usr/portage
 
 EXPOSE 27017
